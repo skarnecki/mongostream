@@ -1,0 +1,34 @@
+{
+    "name": "mongostream",
+    "version": "0.1.0",
+    "description": "automated cache updater //FIXME",
+    "homepage": "https://github.com/skarnecki/mongostream",
+    "author": {
+        "name": "Szymon Karnecki",
+        "email": "szymon.karnecki@gmail.com"
+    },
+    "license": "MIT",
+    "bin": {
+        "frontail": "./bin/mstream"
+    },
+    "dependencies": {
+        "commander": "1.0.1",
+        "socket.io": "0.9.10",
+        "daemon": "0.4.1",
+        "connect": "2.4.4",
+        "mongodb": "1.2.12"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/skarnecki/mongostream"
+    },
+    "keywords": [
+        "mongodb",
+        "redis",
+        "memcache"
+    ],
+    "engine": {
+        "node": ">= 0.6.19"
+    },
+    "preferGlobal": true
+}
