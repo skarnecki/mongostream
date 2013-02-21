@@ -16,7 +16,8 @@
         "socket.io": "0.9.10",
         "daemon": "0.4.1",
         "connect": "2.4.4",
-        "mongodb": "1.2.12"
+        "mongodb": "1.2.12",
+        "redis": "*"
     },
     "repository": {
         "type": "git",
@@ -25,7 +26,7 @@
     "keywords": [
         "mongodb",
         "redis",
-        "memcache"
+        "memcache",
     ],
     "engine": {
         "node": ">= 0.6.19"
