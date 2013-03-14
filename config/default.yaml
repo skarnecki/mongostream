@@ -1,0 +1,29 @@
+
+oplog:
+  host: "192.168.1.99"
+  port: 27502
+
+target:
+  host: "192.168.1.99"
+  port: 27502
+  dbname: test
+  collection: test
+  queryExtend: {}
+
+redis:
+  host: "192.168.1.99"
+  port: 6379
+
+memcache:
+  host: "192.168.1.99"
+  flag: 0
+  expirationTime: 0
+
+format:
+  key: "#prefix#<%=collectionName%>/<%=data._id%>"
+  value: "#value#<%=collectionName%>/<%=data._id%>"
+
+options:
+  useRedis: true
+  useMemcache: false
+  populateOnStart: true

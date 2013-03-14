@@ -18,7 +18,10 @@
         "connect": "2.4.4",
         "mongodb": "1.2.12",
         "redis": "*",
-        "mc": "*"
+        "mc": "*",
+        "config": "*",
+        "yaml": "*",
+        "underscore": "*"
     },
     "repository": {
         "type": "git",
